@@ -1,0 +1,1 @@
+Firebase Functions 2ª gen — publicProfile, api y stripeWebhook (completa los secretos y despliega).

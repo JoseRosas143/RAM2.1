@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="RegistroAnimalMX Tutor App">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#266EF1"/>
+  <link rel="manifest" href="manifest.json">
+  <title>RegistroAnimalMX — Tutor</title>
+  <!-- Flutter will inject scripts here during build -->
+</head>
+<body>
+  <noscript>Habilita JavaScript para usar la app.</noscript>
+  <div id="flt-platform-view"></div>
+  <script>
+    // Register Firebase Messaging service worker if available
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/firebase-messaging-sw.js');
+    }
+  </script>
+</body>
+</html>

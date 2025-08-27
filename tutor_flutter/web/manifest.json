@@ -1,0 +1,9 @@
+{
+  "name": "RegistroAnimalMX — Tutor",
+  "short_name": "Tutor RAM",
+  "start_url": "/app",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#266EF1",
+  "icons": []
+}
